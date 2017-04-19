@@ -2,6 +2,7 @@ FROM gitlab/gitlab-ce:9.0.5-ce.0
 
 MAINTAINER lai <lai1208@qq.com>
 
+
 ENV TMPDIR=/tmp/gitlab-zh
 ENV GITLAB_VERSION=v9.0.5
 
