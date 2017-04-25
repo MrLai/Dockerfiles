@@ -1,9 +1,9 @@
-FROM gitlab/gitlab-ce:9.0.5-ce.0
+FROM gitlab/gitlab-ce:9.1.0-ce.0
 
-MAINTAINER lai <lai1208@qq.com>
+MAINTAINER ALai <flyingalai@gmail.com>
 
 ENV TMPDIR=/tmp/gitlab-zh
-ENV GITLAB_VERSION=v9.0.5
+ENV GITLAB_VERSION=v9.1.0
 
 # clone && apply zh patch.
 RUN git clone --progress --verbose https://gitlab.com/xhang/gitlab.git $TMPDIR && \

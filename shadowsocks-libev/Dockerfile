@@ -3,7 +3,7 @@
 #
 
 FROM alpine
-MAINTAINER ALai <flyinglai@gmail.com>
+MAINTAINER ALai <flyingalai@gmail.com>
 
 RUN set -ex \
     && echo 'http://nl.alpinelinux.org/alpine/edge/main' >> /etc/apk/repositories \
