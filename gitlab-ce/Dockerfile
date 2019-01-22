@@ -1,7 +1,7 @@
 #####################
 #  Building Stage   #
 #####################
-FROM gitlab/gitlab-ce:11.6.5 as builder
+FROM gitlab/gitlab-ce:11.6.5-ce.0 as builder
 
 ENV GITLAB_DIR=/opt/gitlab/embedded/service/gitlab-rails
 ENV GITLAB_GIT_ZH=https://gitlab.com/xhang/gitlab.git
@@ -78,7 +78,7 @@ RUN set -xe \
 ######################
 #  Production Stage  #
 ######################
-FROM gitlab/gitlab-ce:11.6.5 as production
+FROM gitlab/gitlab-ce:11.6.5-ce.0 as production
 
 RUN set -xe \
     && export DEBIAN_FRONTEND=noninteractive \
