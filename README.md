@@ -1,3 +1,3 @@
-# 个人Docker锐像
+# 个人Docker镜像
 
 
